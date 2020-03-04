@@ -3,6 +3,76 @@
   <component name="StickySelectionHighlights">
     <option name="editorHighlights">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <PaintGroupHighlightMap>
+              <option name="paintGroups">
+                <map>
+                  <entry key="0">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                  <entry key="1">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                  <entry key="2">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                  <entry key="3">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                  <entry key="4">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </PaintGroupHighlightMap>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.gitignore">
+          <value>
+            <PaintGroupHighlightMap>
+              <option name="paintGroups">
+                <map>
+                  <entry key="0">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                  <entry key="1">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                  <entry key="2">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                  <entry key="3">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                  <entry key="4">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </PaintGroupHighlightMap>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/README.rst">
           <value>
             <PaintGroupHighlightMap>
@@ -39,6 +109,41 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/pyproject.toml">
+          <value>
+            <PaintGroupHighlightMap>
+              <option name="paintGroups">
+                <map>
+                  <entry key="0">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                  <entry key="1">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                  <entry key="2">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                  <entry key="3">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                  <entry key="4">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </PaintGroupHighlightMap>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/tests/test_sample_tdd.py">
           <value>
             <PaintGroupHighlightMap>
               <option name="paintGroups">
