@@ -6,4 +6,4 @@ def test_version():
 
 
 def test_all():
-    assert __all__ == ["hello_world"]
+    assert __all__ == ["__version__", "hello_world"]
