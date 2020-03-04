@@ -1,0 +1,8 @@
+README.rst
+pyproject.toml
+setup.py
+sample_tdd/__init__.py
+sample_tdd.egg-info/PKG-INFO
+sample_tdd.egg-info/SOURCES.txt
+sample_tdd.egg-info/dependency_links.txt
+sample_tdd.egg-info/top_level.txt
