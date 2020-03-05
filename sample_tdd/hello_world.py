@@ -10,8 +10,7 @@ This is Testing sample target.
 
 
 class HelloWorld(object):
-    """
-    Hello world.
+    """Hello world.
 
     Properties:
         * message : str

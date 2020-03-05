@@ -6,9 +6,9 @@ Testing sample.
 
 * Author: YAMAGAMI Satoshi
 """
-import hello_world
-
 import pytest
+
+from sample_tdd import hello_world
 
 
 class TestHelloWorld(object):
@@ -19,8 +19,7 @@ class TestHelloWorld(object):
 
         @pytest.mark.parametrize(
             "message, expected",
-            [("Hello, World", "Hello, World"),
-             ("hello", "hello"), ("bye", "bye"), ],
+            [("Hello, World", "Hello, World"), ("hello", "hello"), ("bye", "bye"), ],
         )
         def test_message_on_init(self, message: str, expected: str):
             """Test on initialize."""
@@ -29,8 +28,7 @@ class TestHelloWorld(object):
 
         @pytest.mark.parametrize(
             "message, expected",
-            [("Hello, World", "Hello, World"),
-             ("hello", "hello"), ("bye", "bye"), ],
+            [("Hello, World", "Hello, World"), ("hello", "hello"), ("bye", "bye"), ],
         )
         def test_message_with_setter(self, message: str, expected: str):
             """Test with setter."""
@@ -53,8 +51,7 @@ class TestHelloWorld(object):
 
         @pytest.mark.parametrize(
             "message, expected",
-            [("Hello, World", "Hello, World\n"),
-             ("hello", "hello\n"), ("bye", "bye\n"), ],
+            [("Hello, World", "Hello, World\n"), ("hello", "hello\n"), ("bye", "bye\n"), ],
         )
         def test_print_message(self, capfd, message: str, expected: str):
             """Test print message."""

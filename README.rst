@@ -27,13 +27,19 @@ TDDサンプル
 
 .. code-block:: shell
 
-    $ pytest
+    $ scripts/test.sh
 
-* テストカバレッジの取得（HTML）
+* フォーマッタの実行(autopep8)
 
 .. code-block:: shell
 
-    $ pytest --cov=sample_tdd --cov-report=html
+    $ scripts/format.sh
+
+* 静的コード解析の実行(flake8)
+
+.. code-block:: shell
+
+    $ scripts/inspect_code.sh
 
 * 依存関係の追加
 

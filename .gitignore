@@ -2,3 +2,4 @@
 .pytest_cache
 /sample_tdd.egg-info
 htmlcov
+/reports/**/
