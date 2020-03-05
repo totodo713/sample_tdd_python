@@ -35,6 +35,23 @@ TDDサンプル
 
     $ pytest --cov=sample_tdd --cov-report=html
 
+* 依存関係の追加
+
+.. code-block:: shell
+
+    // 本番にも適用する場合
+    $ poetry add <パッケージ>
+    // 開発環境のみの場合
+    $ poetry add <パッケージ> --dev
+
+* 依存関係の削除
+
+.. code-block:: shell
+
+    // 本番にも適用する場合
+    $ poetry remove <パッケージ>
+    // 開発環境のみの場合
+    $ poetry remove <パッケージ> --dev
 
 外部参照リンク
 ==============
