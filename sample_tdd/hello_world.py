@@ -10,11 +10,16 @@ This is Testing sample target.
 
 
 class HelloWorld(object):
-    """Hello world."""
+    """
+    Hello world.
+
+    Properties:
+        * message : str
+    """
 
     @property
     def message(self) -> str:
-        """Message is property.
+        """Message.
 
         Property "message" is said by say().
 
