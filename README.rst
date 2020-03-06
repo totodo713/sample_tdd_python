@@ -19,9 +19,7 @@ TDDサンプル
 
 .. code-block:: shell
 
-    $ pip install --user poetry
-    $ poetry --version
-    $ poetry install
+    $ scripts/install.sh
 
 * テスト実行
 
