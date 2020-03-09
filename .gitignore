@@ -3,3 +3,4 @@
 /sample_tdd.egg-info
 htmlcov
 /reports/**/
+/.venv/
