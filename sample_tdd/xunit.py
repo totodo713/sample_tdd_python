@@ -12,32 +12,32 @@ class TestCase(object):
         self.set_up()
         method = getattr(self, self.name)
         method()
+        self.tearDown()
+
+    def tearDown(self):
+        pass
 
 
 class WasRun(TestCase):
-    wasSetUp: int
     wasRun: int
+
+    def set_up(self):
+        self.log = "Set up "
 
     def test_method(self):
         self.wasRun = 1
+        self.log += "Test Method "
 
-    def set_up(self):
-        self.wasRun = None
-        self.wasSetUp = 1
+    def tearDown(self):
+        self.log += "Tear Down "
 
 
 class TestCaseTest(TestCase):
-    def set_up(self):
-        self.test = WasRun("test_method")
 
-    def test_running(self):
-        self.test.run()
-        assert self.test.wasRun
-
-    def test_set_up(self):
-        self.test.run()
-        assert self.test.wasSetUp
+    def test_template_method(self):
+        test = WasRun("test_method")
+        test.run()
+        assert "Set up Test Method Tear Down " == test.log
 
 
-TestCaseTest("test_running").run()
-TestCaseTest("test_set_up").run()
+TestCaseTest("test_template_method").run()
